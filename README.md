@@ -18,6 +18,10 @@ In order to use the "Run YOLO"" tool you must first download the weights and con
 
 The Pedestrian Awareness Dataset is focused on analyzing pedestrians' behavior in urban environments. It includes a series of small clips corresponding to crossing/not-crossing scenarios, bounding boxes data for subjects appearing in those scenes, and behavioral and attributes annotations for those same subjects.
 
-For both privacy and size reasons I will not publish the recorded videos here. If you are interested in getting them, please send an e-mail to albertobm@protonmail.com stating who you are, your purposes,... 
+Here you have an example of my work:
 
-Anyone who recognizes him or herself in any of the videos and wants to avoid its distribution can send an email to albertobm@protonmail.com and I will remove it from the list of videos I can share.
+![](/home/alberto/Documentos/PAD/scene_behav_02.png) 
+
+_For both privacy and size reasons I will not publish the recorded videos here. If you are interested in getting them, please send an e-mail to albertobm@protonmail.com stating who you are, your purposes,..._
+
+_Anyone who recognizes him or herself in any of the videos and wants to avoid its distribution can send an email to albertobm@protonmail.com and I will remove it from the list of videos I can share._
