@@ -20,7 +20,7 @@ The Pedestrian Awareness Dataset is focused on analyzing pedestrians' behavior i
 
 Here you have an example of my work:
 
-![](/home/alberto/Documentos/PAD/scene_behav_02.png) 
+![](scene_behav_02.png) 
 
 _For both privacy and size reasons I will not publish the recorded videos here. If you are interested in getting them, please send an e-mail to albertobm@protonmail.com stating who you are, your purposes,..._
 
