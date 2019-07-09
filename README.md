@@ -22,6 +22,7 @@ The suite is developed under Pop!\_OS (Ubuntu 18.04) in Python 3.6, but should w
 - Munkres: https://pypi.org/project/munkres/
 - screeninfo: https://pypi.org/project/screeninfo/
 - wxPython: https://github.com/wxWidgets/Phoenix
+- BORIS: http://www.boris.unito.it
 - VLC (optional, but strongly recommended): https://www.videolan.org/vlc/
 
 ## The Dataset
