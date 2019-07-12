@@ -25,6 +25,8 @@ The suite is developed under Pop!\_OS (Ubuntu 18.04) in Python 3.6, but should w
 - BORIS: http://www.boris.unito.it
 - VLC: https://www.videolan.org/vlc/
 
+Bug reports, comments and feature suggestions are always welcome.
+
 ## The Dataset
 
 The Pedestrian Awareness Dataset is focused on analyzing pedestrians' behavior in urban environments. It includes a series of small clips corresponding to crossing/not-crossing scenarios, bounding boxes data for subjects appearing in those scenes, and behavioral and attributes annotations for those same subjects.
