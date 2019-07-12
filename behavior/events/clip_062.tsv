@@ -1,0 +1,31 @@
+Observation id	clip_062								
+									
+Media file(s)									
+									
+Player #1	/home/alberto/Vídeos/PAD/clip_062.avi								
+									
+Observation date	2019-06-25 17:00:40								
+									
+Description	Recording date: 14/06/2019 Circuit: Downtown Alcalá Original video: 20190614_1.mp4								
+									
+Time offset (s)	0.000								
+									
+independent variables									
+variable	value								
+Weather	sun								
+Visibility	good								
+Traffic	light								
+Traffic lights	yes								
+Crossing	yes								
+Sign	no								
+Speed bump	no								
+Lanes	2								
+Ways	two								
+									
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Comment	Status
+0.000	/home/alberto/Vídeos/PAD/clip_062.avi	6.020	59.0	Traffic_Lights	Traffic lights		Green		START
+0.216	/home/alberto/Vídeos/PAD/clip_062.avi	6.020	59.0	Agent01	Standing		Close		START
+1.501	/home/alberto/Vídeos/PAD/clip_062.avi	6.020	59.0	Agent01	Looking		Side		START
+5.006	/home/alberto/Vídeos/PAD/clip_062.avi	6.020	59.0	Traffic_Lights	Traffic lights		Green		STOP
+5.399	/home/alberto/Vídeos/PAD/clip_062.avi	6.020	59.0	Agent01	Looking		Side		STOP
+5.404	/home/alberto/Vídeos/PAD/clip_062.avi	6.020	59.0	Agent01	Standing		Close		STOP

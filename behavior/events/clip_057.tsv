@@ -1,0 +1,39 @@
+Observation id	clip_057									
+										
+Media file(s)										
+										
+Player #1	/home/alberto/Vídeos/PAD/clip_057.avi									
+										
+Observation date	2019-06-25 16:17:36									
+										
+Description	Recording date: 14/06/2019 Circuit: none Original video: 20190614_1.mp4									
+										
+Time offset (s)	0.000									
+										
+independent variables										
+variable	value									
+Weather	sun									
+Visibility	good									
+Traffic	flow									
+Traffic lights	yes									
+Crossing	yes									
+Sign	no									
+Speed bump	no									
+Lanes	2									
+Ways	one									
+										
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
+0.000	/home/alberto/Vídeos/PAD/clip_057.avi	6.020	59.0	Traffic_Lights	Traffic lights		Green			START
+0.372	/home/alberto/Vídeos/PAD/clip_057.avi	6.020	59.0	Agent01	Standing		Close			START
+2.318	/home/alberto/Vídeos/PAD/clip_057.avi	6.020	59.0	Agent01	Looking		Front			START
+2.576	/home/alberto/Vídeos/PAD/clip_057.avi	6.020	59.0	Alien01	Walking		Normal	Other		START
+2.576	/home/alberto/Vídeos/PAD/clip_057.avi	6.020	59.0	Alien02	Walking		Normal	Other		START
+3.081	/home/alberto/Vídeos/PAD/clip_057.avi	6.020	59.0	Alien03	Walking		Normal	Other		START
+4.233	/home/alberto/Vídeos/PAD/clip_057.avi	6.020	59.0	Agent01	Looking		Front			STOP
+4.234	/home/alberto/Vídeos/PAD/clip_057.avi	6.020	59.0	Agent01	Looking		Side			START
+5.051	/home/alberto/Vídeos/PAD/clip_057.avi	6.020	59.0	Traffic_Lights	Traffic lights		Green			STOP
+5.303	/home/alberto/Vídeos/PAD/clip_057.avi	6.020	59.0	Agent01	Looking		Side			STOP
+5.504	/home/alberto/Vídeos/PAD/clip_057.avi	6.020	59.0	Agent01	Standing		Close			STOP
+5.711	/home/alberto/Vídeos/PAD/clip_057.avi	6.020	59.0	Alien01	Walking		Normal	Other		STOP
+5.891	/home/alberto/Vídeos/PAD/clip_057.avi	6.020	59.0	Alien02	Walking		Normal	Other		STOP
+5.891	/home/alberto/Vídeos/PAD/clip_057.avi	6.020	59.0	Alien03	Walking		Normal	Other		STOP

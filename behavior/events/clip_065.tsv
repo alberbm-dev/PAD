@@ -1,0 +1,51 @@
+Observation id	clip_065									
+										
+Media file(s)										
+										
+Player #1	/home/alberto/Vídeos/PAD/clip_065.avi									
+										
+Observation date	2019-06-25 17:19:02									
+										
+Description	Recording date: 14/06/2019 Circuit: Downtown Alcalá Original video: 20190614_2.mp4									
+										
+Time offset (s)	0.000									
+										
+independent variables										
+variable	value									
+Weather	sun									
+Visibility	normal									
+Traffic	flow									
+Traffic lights	no									
+Crossing	yes									
+Sign	yes									
+Speed bump	no									
+Lanes	1									
+Ways	one									
+										
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
+3.333	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent01	Walking		Slow	Road		START
+3.333	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent02	Walking		Slow	Road		START
+4.090	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent01	Glancing					POINT
+4.792	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent03	Walking		Normal	Road		START
+6.378	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent01	Glancing					POINT
+6.719	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent01	Walking		Slow	Road		STOP
+6.719	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent02	Walking		Slow	Road		STOP
+6.720	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent01	Crossing		Normal			START
+6.720	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent02	Crossing		Normal			START
+6.720	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent02	Glancing					POINT
+6.792	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent04	Crossing		Normal			START
+7.029	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent01	Thanking					POINT
+7.452	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent03	Walking		Normal	Road		STOP
+7.453	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent03	Crossing		Normal			START
+15.203	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent03	Crossing		Normal			STOP
+15.203	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent03	Walking		Normal	Other		START
+15.205	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent04	Crossing		Normal			STOP
+15.207	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent04	Walking		Normal	Other		START
+15.437	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent01	Crossing		Normal			STOP
+15.511	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent02	Crossing		Normal			STOP
+15.512	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent02	Walking		Normal	Other		START
+15.762	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent02	Crossing		Normal			START
+17.261	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent02	Crossing		Normal			STOP
+17.262	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent02	Walking		Normal	Other		STOP
+17.351	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent04	Walking		Normal	Other		STOP
+17.601	/home/alberto/Vídeos/PAD/clip_065.avi	18.020	59.0	Agent03	Walking		Normal	Other		STOP

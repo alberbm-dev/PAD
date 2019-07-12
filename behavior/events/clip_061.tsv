@@ -1,0 +1,29 @@
+Observation id	clip_061									
+										
+Media file(s)										
+										
+Player #1	/home/alberto/Vídeos/PAD/clip_061.avi									
+										
+Observation date	2019-06-25 16:54:14									
+										
+Description	Recording date: 14/06/2019 Circuit: Downtown Alcalá Original video: 20190614_1.mp4									
+										
+Time offset (s)	0.000									
+										
+independent variables										
+variable	value									
+Weather	sun									
+Visibility	normal									
+Traffic	heavy									
+Traffic lights	no									
+Crossing	no									
+Sign	no									
+Speed bump	no									
+Lanes	2									
+Ways	two									
+										
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
+0.018	/home/alberto/Vídeos/PAD/clip_061.avi	6.020	59.0	Alien01	Walking		Normal	Other		START
+2.048	/home/alberto/Vídeos/PAD/clip_061.avi	6.020	59.0	Agent01	Crossing		Fast			START
+3.200	/home/alberto/Vídeos/PAD/clip_061.avi	6.020	59.0	Alien01	Walking		Normal	Other		STOP
+5.834	/home/alberto/Vídeos/PAD/clip_061.avi	6.020	59.0	Agent01	Crossing		Fast			STOP

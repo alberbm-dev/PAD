@@ -1,0 +1,41 @@
+Observation id	clip_050									
+										
+Media file(s)										
+										
+Player #1	/home/alberto/Vídeos/PAD/clip_050.avi									
+										
+Observation date	2019-06-23 18:08:34									
+										
+Description	Recording date: 18/05/2019 Circuit: none Original video: 20190518_2.mp4									
+										
+Time offset (s)	0.000									
+										
+independent variables										
+variable	value									
+Weather	sun									
+Visibility	good									
+Traffic	flow									
+Traffic lights	yes									
+Crossing	no									
+Sign	no									
+Speed bump	no									
+Lanes	1									
+Ways	two									
+										
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
+0.048	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Agent01	Standing		Close			START
+0.048	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Traffic_Lights	Traffic lights		Green			START
+2.034	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Agent01	Looking		Side			START
+2.241	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Traffic_Lights	Traffic lights		Green			STOP
+2.242	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Traffic_Lights	Traffic lights		Yellow			START
+2.546	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Agent01	Looking		Side			STOP
+3.955	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Agent01	Looking		Side			START
+5.252	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Traffic_Lights	Traffic lights		Yellow			STOP
+5.253	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Traffic_Lights	Traffic lights		Red			START
+5.717	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Agent01	Looking		Side			STOP
+5.765	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Agent01	Standing		Close			STOP
+9.881	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Agent01	Crossing		Normal			START
+13.628	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Agent01	Crossing		Normal			STOP
+13.629	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Agent01	Walking		Normal	Other		START
+15.711	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Agent01	Walking		Normal	Other		STOP
+15.855	/home/alberto/Vídeos/PAD/clip_050.avi	16.020	59.0	Traffic_Lights	Traffic lights		Red			STOP

@@ -1,0 +1,59 @@
+Observation id	clip_042									
+										
+Media file(s)										
+										
+Player #1	/home/alberto/Vídeos/PAD/clip_042.avi									
+										
+Observation date	2019-06-21 19:55:42									
+										
+Description	Recording date: 18/05/2019 Circuit: Downtown Alcalá Original video: 20190518_1.mp4									
+										
+Time offset (s)	0.000									
+										
+independent variables										
+variable	value									
+Weather	sun									
+Visibility	good									
+Traffic	light									
+Traffic lights	no									
+Crossing	yes									
+Sign	yes									
+Speed bump	no									
+Lanes	1									
+Ways	one									
+										
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
+0.138	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent04	Walking		Normal	Other		START
+0.138	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent05	Walking		Normal	Other		START
+0.483	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent01	Walking		Normal	Road		START
+0.483	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent02	Walking		Normal	Road		START
+2.992	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent02	Glancing					POINT
+4.604	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent02	Looking		Side			START
+5.548	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent02	Looking		Side			STOP
+6.256	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent01	Walking		Normal	Road		STOP
+6.257	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent01	Crossing		Normal			START
+6.307	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent02	Walking		Normal	Road		STOP
+6.308	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent02	Crossing		Normal			START
+6.515	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent03	Walking		Normal	Road		START
+7.067	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent04	Walking		Normal	Other		STOP
+7.068	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent04	Walking		Normal	Road		START
+9.669	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent04	Glancing					POINT
+10.933	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent03	Walking		Normal	Road		STOP
+10.934	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent03	Crossing		Normal			START
+11.120	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent01	Crossing		Normal			STOP
+11.280	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent04	Walking		Normal	Road		STOP
+11.281	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent04	Crossing		Normal			START
+11.557	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent02	Crossing		Normal			STOP
+11.740	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent05	Walking		Normal	Other		STOP
+11.741	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent05	Walking		Normal	Road		START
+12.386	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent05	Looking		Side			START
+13.145	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent05	Walking		Normal	Road		STOP
+13.146	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent05	Crossing		Normal			START
+13.744	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent05	Looking		Side			STOP
+15.884	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent03	Crossing		Normal			STOP
+18.877	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent04	Crossing		Normal			STOP
+18.878	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent04	Walking		Normal	Other		START
+19.561	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent05	Crossing		Normal			STOP
+19.562	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent05	Walking		Normal	Other		START
+22.492	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent04	Walking		Normal	Other		STOP
+22.562	/home/alberto/Vídeos/PAD/clip_042.avi	22.562	59.0	Agent05	Walking		Normal	Other		STOP

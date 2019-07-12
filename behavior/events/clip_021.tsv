@@ -1,0 +1,30 @@
+Observation id	clip_021									
+										
+Media file(s)										
+										
+Player #1	/home/alberto/Vídeos/PAD/clip_021.avi									
+										
+Observation date	2019-05-03 13:25:58									
+										
+Description	Recording date: 10/04/2019 Circuit: Downtown Alcalá Original video: G1_video_032.avi									
+										
+Time offset (s)	0.000									
+										
+independent variables										
+variable	value									
+Weather	clouds									
+Visibility	normal									
+Traffic	empty									
+Traffic lights	no									
+Crossing	no									
+Sign	no									
+Speed bump	no									
+Lanes	1									
+Ways	two									
+										
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
+0.060	/home/alberto/Vídeos/PAD/clip_021.avi	5.520	25.0	Agent01	Walking		Slow	Other		START
+2.671	/home/alberto/Vídeos/PAD/clip_021.avi	5.520	25.0	Agent01	Walking		Slow	Other		STOP
+2.882	/home/alberto/Vídeos/PAD/clip_021.avi	5.520	25.0	Agent01	Standing		Close			START
+4.534	/home/alberto/Vídeos/PAD/clip_021.avi	5.520	25.0	Agent01	Glancing					POINT
+5.030	/home/alberto/Vídeos/PAD/clip_021.avi	5.520	25.0	Agent01	Standing		Close			STOP

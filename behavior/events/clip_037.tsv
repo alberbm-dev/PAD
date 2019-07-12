@@ -1,0 +1,41 @@
+Observation id	clip_037									
+										
+Media file(s)										
+										
+Player #1	/home/alberto/Vídeos/PAD/clip_037.avi									
+										
+Observation date	2019-06-21 18:44:34									
+										
+Description	Recording date: 18/05/2019 Circuit: Downtown Alcalá Original video: 20190518_1.mp4									
+										
+Time offset (s)	0.000									
+										
+independent variables										
+variable	value									
+Weather	sun									
+Visibility	good									
+Traffic	flow									
+Traffic lights	yes									
+Crossing	yes									
+Sign	no									
+Speed bump	no									
+Lanes	2									
+Ways	one									
+										
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
+0.014	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Traffic_Lights	Traffic lights		Green			START
+0.056	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Agent01	Standing		Close			START
+2.046	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Agent02	Walking		Normal	Road		START
+2.046	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Agent03	Walking		Normal	Road		START
+5.241	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Agent01	Looking		Front			START
+5.598	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Agent06	Walking		Normal	Road		START
+5.626	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Agent02	Walking		Normal	Road		STOP
+5.626	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Agent05	Walking		Normal	Road		START
+5.682	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Agent04	Walking		Normal	Road		START
+5.955	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Agent03	Walking		Normal	Road		STOP
+6.425	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Agent01	Looking		Front			STOP
+6.575	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Agent06	Walking		Normal	Road		STOP
+6.579	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Agent05	Walking		Normal	Road		STOP
+6.925	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Agent01	Standing		Close			STOP
+6.950	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Traffic_Lights	Traffic lights		Green			STOP
+6.964	/home/alberto/Vídeos/PAD/clip_037.avi	7.510	59.0	Agent04	Walking		Normal	Road		STOP

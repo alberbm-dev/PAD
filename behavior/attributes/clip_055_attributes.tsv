@@ -1,0 +1,7 @@
+Source TSV:	clip_055.tsv
+Attributes:	adult	bike	carry_baby	crutches/cane	glasses	group	hat	headset	hood	kid	pet	phone_ear	phone_hand	senior	stroller	sunglasses	umbrella	wheelchair	young
+Agent01	yes	no	no	no	no	yes	no	no	no	no	no	no	no	no	no	yes	no	no	no
+Agent02	no	no	no	no	no	yes	no	no	no	yes	no	no	no	no	no	no	no	no	no
+Agent03	no	no	no	no	no	yes	no	no	no	yes	no	no	no	no	no	yes	no	no	no
+Agent04	yes	no	no	no	no	yes	no	no	no	no	no	no	no	no	no	no	no	no	no
+Agent05	no	no	no	no	no	no	no	no	no	no	no	no	no	yes	no	yes	no	no	no

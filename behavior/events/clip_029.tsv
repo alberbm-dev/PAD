@@ -1,0 +1,67 @@
+Observation id	clip_029									
+										
+Media file(s)										
+										
+Player #1	/home/alberto/Vídeos/PAD/clip_029_tracking.avi									
+										
+Observation date	2019-05-04 12:13:57									
+										
+Description	Recording date: 10/04/2019 Circuit: Downtown Alcalá Original video: G2_video_046.avi									
+										
+Time offset (s)	0.000									
+										
+independent variables										
+variable	value									
+Weather	clouds									
+Visibility	good									
+Traffic	light									
+Traffic lights	yes									
+Crossing	yes									
+Sign	no									
+Speed bump	no									
+Lanes	3									
+Ways	one									
+										
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
+0.280	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent01	Crossing		Normal			START
+0.280	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Traffic_Lights	Traffic lights		Green			START
+2.400	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Alien01	Standing		Far			START
+2.480	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent02	Standing		Close			START
+2.480	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent03	Standing		Close			START
+2.600	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent04	Walking		Normal	Road		START
+3.200	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent05	Walking		Fast	Road		START
+3.920	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent06	Walking		Normal	Road		START
+4.040	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent07	Standing		Close			START
+4.520	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent04	Walking		Normal	Road		STOP
+4.639	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Alien01	Standing		Far			STOP
+4.640	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent02	Standing		Close			STOP
+4.640	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent04	Walking		Normal	Road		START
+4.760	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent04	Looking		Side			START
+4.760	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent05	Walking		Fast	Road		STOP
+5.000	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent07	Standing		Close			STOP
+5.080	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent02	Standing		Close			START
+5.119	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent04	Walking		Normal	Road		STOP
+5.120	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent04	Standing		Close			START
+5.160	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent03	Standing		Close			STOP
+5.240	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent05	Walking		Fast	Road		START
+5.240	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent07	Standing		Close			START
+5.440	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent03	Standing		Close			START
+5.639	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent05	Walking		Fast	Road		STOP
+5.640	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent05	Crossing		Fast			START
+5.720	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent06	Walking		Normal	Road		STOP
+5.760	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent05	Looking		Side			START
+5.800	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent06	Walking		Normal	Road		START
+5.919	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent04	Looking		Side			STOP
+5.920	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent01	Crossing		Normal			STOP
+5.920	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent04	Looking		Front			START
+5.960	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Traffic_Lights	Traffic lights		Green			STOP
+6.160	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent06	Walking		Normal	Road		STOP
+6.400	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent04	Looking		Front			STOP
+6.400	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent04	Standing		Close			STOP
+6.439	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent05	Crossing		Fast			STOP
+6.440	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent05	Standing		Close			START
+6.480	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent03	Standing		Close			STOP
+6.760	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent05	Looking		Side			STOP
+6.800	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent07	Standing		Close			STOP
+7.080	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent05	Standing		Close			STOP
+7.160	/home/alberto/Vídeos/PAD/clip_029_tracking.avi	9.040	25.0	Agent02	Standing		Close			STOP

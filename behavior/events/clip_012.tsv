@@ -1,0 +1,49 @@
+Observation id	clip_012									
+										
+Media file(s)										
+										
+Player #1	/home/alberto/Vídeos/PAD/clip_012_tracking.avi									
+										
+Observation date	2019-05-03 11:29:12									
+										
+Description	Recording date: 10/04/2019 Circuit: Downtown Alcalá Original video: G1_video_025.avi									
+										
+Time offset (s)	0.000									
+										
+independent variables										
+variable	value									
+Weather	sun									
+Visibility	good									
+Traffic	empty									
+Traffic lights	no									
+Crossing	yes									
+Sign	no									
+Speed bump	no									
+Lanes	1									
+Ways	one									
+										
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
+0.010	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Alien01	Walking		Normal	Other		START
+0.010	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Alien02	Walking		Normal	Other		START
+0.790	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent01	Looking		Front			START
+0.790	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent02	Looking		Front			START
+0.920	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Alien02	Walking		Normal	Other		STOP
+1.000	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent01	Walking		Normal	Road		START
+1.000	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent02	Walking		Normal	Road		START
+1.000	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Alien01	Walking		Normal	Other		STOP
+1.520	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent03	Looking		Front			START
+1.520	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent03	Walking		Normal	Road		START
+3.533	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent01	Walking		Normal	Road		STOP
+3.533	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent02	Walking		Normal	Road		STOP
+3.533	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent03	Walking		Normal	Road		STOP
+3.953	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent01	Looking		Front			STOP
+3.953	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent02	Looking		Front			STOP
+3.953	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent03	Looking		Front			STOP
+3.973	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent01	Crossing		Normal			START
+3.973	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent02	Crossing		Normal			START
+3.973	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent03	Crossing		Normal			START
+5.735	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent01	Looking		Side			START
+7.457	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent01	Looking		Side			STOP
+7.920	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent02	Crossing		Normal			STOP
+8.040	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent01	Crossing		Normal			STOP
+8.280	/home/alberto/Vídeos/PAD/clip_012_tracking.avi	10.040	25	Agent03	Crossing		Normal			STOP

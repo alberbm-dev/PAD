@@ -1,0 +1,54 @@
+Observation id	clip_020									
+										
+Media file(s)										
+										
+Player #1	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi									
+										
+Observation date	2019-05-03 12:59:38									
+										
+Description	Recording date: 10/04/2019 Circuit: Downtown Alcalá Original video: G1_video_031.avi									
+										
+Time offset (s)	0.000									
+										
+independent variables										
+variable	value									
+Weather	sun									
+Visibility	normal									
+Traffic	light									
+Traffic lights	yes									
+Crossing	yes									
+Sign	no									
+Speed bump	no									
+Lanes	1									
+Ways	one									
+										
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
+0.040	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Traffic_Lights	Traffic lights		Red			START
+0.960	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Walking		Normal	Other		START
+1.120	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Walking		Normal	Other		STOP
+1.680	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Walking		Normal	Road		START
+3.400	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Walking		Normal	Road		STOP
+3.440	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Crossing		Fast			START
+3.720	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Looking		Side			START
+5.240	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Looking		Side			STOP
+5.680	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Crossing		Fast			STOP
+5.720	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Walking		Normal	Road		START
+6.000	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Looking		Front			START
+6.080	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Traffic_Lights	Traffic lights		Red			STOP
+6.120	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Traffic_Lights	Traffic lights		Green			START
+6.960	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Walking		Normal	Road		STOP
+7.000	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Crossing		Fast			START
+7.080	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Thanking					POINT
+7.320	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Looking		Front			STOP
+7.800	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Looking		Side			START
+9.200	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent02	Looking		Front			START
+9.200	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent02	Walking		Normal	Road		START
+10.680	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Looking		Side			STOP
+11.320	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Crossing		Fast			STOP
+11.320	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Traffic_Lights	Traffic lights		Green			STOP
+11.360	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Walking		Normal	Other		START
+11.920	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent01	Walking		Normal	Other		STOP
+11.960	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent02	Looking		Front			STOP
+12.000	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent02	Looking		Side			START
+12.240	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent02	Looking		Side			STOP
+12.240	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_020_tracking.avi	13.040	25.0	Agent02	Walking		Normal	Road		STOP

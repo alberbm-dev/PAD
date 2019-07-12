@@ -1,0 +1,29 @@
+Observation id	clip_027								
+									
+Media file(s)									
+									
+Player #1	/home/alberto/Vídeos/PAD/clip_027.avi								
+									
+Observation date	2019-05-04 12:01:28								
+									
+Description	Recording date: 10/04/2019 Circuit: Downtown Alcalá Original video: G2_video_043.avi								
+									
+Time offset (s)	0.000								
+									
+independent variables									
+variable	value								
+Weather	clouds								
+Visibility	good								
+Traffic	light								
+Traffic lights	yes								
+Crossing	yes								
+Sign	no								
+Speed bump	no								
+Lanes	2								
+Ways	one								
+									
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Comment	Status
+0.378	/home/alberto/Vídeos/PAD/clip_027.avi	9.040	25.0	Traffic_Lights	Traffic lights		Blinking yellow		START
+2.441	/home/alberto/Vídeos/PAD/clip_027.avi	9.040	25.0	Agent01	Crossing		Normal		START
+6.675	/home/alberto/Vídeos/PAD/clip_027.avi	9.040	25.0	Agent01	Crossing		Normal		STOP
+8.000	/home/alberto/Vídeos/PAD/clip_027.avi	9.040	25.0	Traffic_Lights	Traffic lights		Blinking yellow		STOP

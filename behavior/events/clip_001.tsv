@@ -1,0 +1,31 @@
+Observation id	clip_001								
+									
+Media file(s)									
+									
+Player #1	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_001_tracking.avi								
+									
+Observation date	2019-05-04 11:30:14								
+									
+Description	Recording date: 10/04/2019 Circuit: Downtown Alcalá Original video: G2_video_002.avi								
+									
+Time offset (s)	0.000								
+									
+independent variables									
+variable	value								
+Weather	sun								
+Visibility	normal								
+Traffic	heavy								
+Traffic lights	yes								
+Crossing	yes								
+Sign	no								
+Speed bump	no								
+Lanes	2								
+Ways	two								
+									
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Comment	Status
+0.018	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_001_tracking.avi	9.040	25.0	Traffic_Lights	Traffic lights		Green		START
+2.240	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_001_tracking.avi	9.040	25.0	Agent01	Standing		Close		START
+4.440	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_001_tracking.avi	9.040	25.0	Agent01	Looking		Side		START
+5.840	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_001_tracking.avi	9.040	25.0	Traffic_Lights	Traffic lights		Green		STOP
+7.240	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_001_tracking.avi	9.040	25.0	Agent01	Looking		Side		STOP
+7.640	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_001_tracking.avi	9.040	25.0	Agent01	Standing		Close		STOP

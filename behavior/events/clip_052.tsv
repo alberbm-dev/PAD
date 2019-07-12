@@ -1,0 +1,37 @@
+Observation id	clip_052									
+										
+Media file(s)										
+										
+Player #1	/home/alberto/Vídeos/PAD/clip_052.avi									
+										
+Observation date	2019-06-23 18:15:52									
+										
+Description	Recording date: 14/06/2019 Circuit: Circuit 1 Original video: 20190614_1.mp4									
+										
+Time offset (s)	0.000									
+										
+independent variables										
+variable	value									
+Weather	sun									
+Visibility	good									
+Traffic	empty									
+Traffic lights	no									
+Crossing	yes									
+Sign	yes									
+Speed bump	no									
+Lanes	1									
+Ways	one									
+										
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
+0.120	/home/alberto/Vídeos/PAD/clip_052.avi	12.020	59	Alien01	Walking		Normal	Other		START
+1.873	/home/alberto/Vídeos/PAD/clip_052.avi	12.020	59	Agent01	Walking		Normal	Road		START
+1.873	/home/alberto/Vídeos/PAD/clip_052.avi	12.020	59	Agent02	Walking		Normal	Road		START
+2.475	/home/alberto/Vídeos/PAD/clip_052.avi	12.020	59	Alien01	Walking		Normal	Other		STOP
+7.730	/home/alberto/Vídeos/PAD/clip_052.avi	12.020	59	Agent01	Walking		Normal	Road		STOP
+7.731	/home/alberto/Vídeos/PAD/clip_052.avi	12.020	59	Agent01	Crossing		Normal			START
+7.914	/home/alberto/Vídeos/PAD/clip_052.avi	12.020	59	Agent02	Walking		Normal	Road		STOP
+7.915	/home/alberto/Vídeos/PAD/clip_052.avi	12.020	59	Agent02	Crossing		Normal			START
+8.000	/home/alberto/Vídeos/PAD/clip_052.avi	12.020	59	Agent01	Glancing					POINT
+10.414	/home/alberto/Vídeos/PAD/clip_052.avi	12.020	59	Agent01	Glancing					POINT
+10.831	/home/alberto/Vídeos/PAD/clip_052.avi	12.020	59	Agent01	Crossing		Normal			STOP
+11.080	/home/alberto/Vídeos/PAD/clip_052.avi	12.020	59	Agent02	Crossing		Normal			STOP

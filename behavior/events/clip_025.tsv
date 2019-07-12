@@ -1,0 +1,35 @@
+Observation id	clip_025								
+									
+Media file(s)									
+									
+Player #1	/home/alberto/Vídeos/PAD/clip_025.avi								
+									
+Observation date	2019-05-04 11:57:19								
+									
+Description	Recording date: 10/04/2019 Circuit: Downtown Alcalá Original video: G2_video_039 .avi								
+									
+Time offset (s)	0.000								
+									
+independent variables									
+variable	value								
+Weather	clouds								
+Visibility	normal								
+Traffic	empty								
+Traffic lights	yes								
+Crossing	yes								
+Sign	no								
+Speed bump	no								
+Lanes	1								
+Ways	one								
+									
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Comment	Status
+0.020	/home/alberto/Vídeos/PAD/clip_025.avi	10.040	25.0	Agent01	Crossing		Normal		START
+0.020	/home/alberto/Vídeos/PAD/clip_025.avi	10.040	25.0	Agent02	Crossing		Normal		START
+1.100	/home/alberto/Vídeos/PAD/clip_025.avi	10.040	25.0	Traffic_Lights	Traffic lights		Green		START
+3.993	/home/alberto/Vídeos/PAD/clip_025.avi	10.040	25.0	Agent03	Looking		Side		START
+4.000	/home/alberto/Vídeos/PAD/clip_025.avi	10.040	25.0	Agent01	Crossing		Normal		STOP
+4.000	/home/alberto/Vídeos/PAD/clip_025.avi	10.040	25.0	Agent02	Crossing		Normal		STOP
+4.014	/home/alberto/Vídeos/PAD/clip_025.avi	10.040	25.0	Agent03	Crossing		Fast		START
+4.415	/home/alberto/Vídeos/PAD/clip_025.avi	10.040	25.0	Agent03	Looking		Side		STOP
+7.390	/home/alberto/Vídeos/PAD/clip_025.avi	10.040	25.0	Agent03	Crossing		Fast		STOP
+8.200	/home/alberto/Vídeos/PAD/clip_025.avi	10.040	25.0	Traffic_Lights	Traffic lights		Green		STOP

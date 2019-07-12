@@ -1,0 +1,36 @@
+Observation id	clip_026								
+									
+Media file(s)									
+									
+Player #1	/home/alberto/Vídeos/PAD/clip_026.avi								
+									
+Observation date	2019-05-04 12:07:50								
+									
+Description	Recording date: 10/04/2019 Circuit: Downtown Alcalá Original video: G2_video_039.avi								
+									
+Time offset (s)	0.000								
+									
+independent variables									
+variable	value								
+Weather	sun								
+Visibility	good								
+Traffic	empty								
+Traffic lights	no								
+Crossing	no								
+Sign	no								
+Speed bump	no								
+Lanes	1								
+Ways	two								
+									
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Comment	Status
+0.126	/home/alberto/Vídeos/PAD/clip_026.avi	7.040	25.0	Agent01	Crossing		Normal		START
+0.126	/home/alberto/Vídeos/PAD/clip_026.avi	7.040	25.0	Agent02	Crossing		Normal		START
+1.618	/home/alberto/Vídeos/PAD/clip_026.avi	7.040	25.0	Alien01	Standing		Close		START
+2.283	/home/alberto/Vídeos/PAD/clip_026.avi	7.040	25.0	Agent02	Crossing		Normal		STOP
+2.284	/home/alberto/Vídeos/PAD/clip_026.avi	7.040	25.0	Alien02	Standing		Far		START
+3.426	/home/alberto/Vídeos/PAD/clip_026.avi	7.040	25.0	Agent01	Glancing				POINT
+4.400	/home/alberto/Vídeos/PAD/clip_026.avi	7.040	25.0	Agent01	Crossing		Normal		STOP
+4.950	/home/alberto/Vídeos/PAD/clip_026.avi	7.040	25.0	Agent02	Crossing		Normal		START
+4.952	/home/alberto/Vídeos/PAD/clip_026.avi	7.040	25.0	Agent02	Crossing		Normal		STOP
+4.953	/home/alberto/Vídeos/PAD/clip_026.avi	7.040	25.0	Alien02	Standing		Far		STOP
+5.017	/home/alberto/Vídeos/PAD/clip_026.avi	7.040	25.0	Alien01	Standing		Close		STOP

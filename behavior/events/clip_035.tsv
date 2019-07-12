@@ -1,0 +1,29 @@
+Observation id	clip_035								
+									
+Media file(s)									
+									
+Player #1	/home/alberto/Vídeos/PAD/clip_035_tracking.avi								
+									
+Observation date	2019-06-20 17:25:54								
+									
+Description	Recording date: 18/05/2019 Circuit: Circuit 1 Original video: 20190518_1.mp4								
+									
+Time offset (s)	0.0								
+									
+independent variables									
+variable	value								
+Weather	sun								
+Visibility	good								
+Traffic	light								
+Traffic lights	no								
+Crossing	no								
+Sign	no								
+Speed bump	no								
+Lanes	2								
+Ways	one								
+									
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Comment	Status
+0.000	/home/alberto/Vídeos/PAD/clip_035_tracking.avi	4.930	60.0	Agent01	Standing		Close		START
+2.950	/home/alberto/Vídeos/PAD/clip_035_tracking.avi	4.930	60.0	Agent01	Looking		Side		START
+4.375	/home/alberto/Vídeos/PAD/clip_035_tracking.avi	4.930	60.0	Agent01	Looking		Side		STOP
+4.400	/home/alberto/Vídeos/PAD/clip_035_tracking.avi	4.930	60.0	Agent01	Standing		Close		STOP

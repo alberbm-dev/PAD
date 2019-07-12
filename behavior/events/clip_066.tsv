@@ -1,0 +1,54 @@
+Observation id	clip_066									
+										
+Media file(s)										
+										
+Player #1	/home/alberto/Vídeos/PAD/clip_066.avi									
+										
+Observation date	2019-06-25 17:30:21									
+										
+Description	Recording date: 14/06/2019 Circuit: Downtown Alcalá Original video: 20190614_2.mp4									
+										
+Time offset (s)	0.0									
+										
+independent variables										
+variable	value									
+Weather	sun									
+Visibility	normal									
+Traffic	light									
+Traffic lights	yes									
+Crossing	yes									
+Sign	no									
+Speed bump	no									
+Lanes	1									
+Ways	two									
+										
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
+0.150	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Traffic_Lights	Traffic lights		Green			START
+0.974	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Traffic_Lights	Traffic lights		Green			STOP
+0.975	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Traffic_Lights	Traffic lights		Blinking yellow			START
+1.376	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent01	Standing		Close			START
+2.970	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent02	Standing		Close			START
+3.746	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent03	Standing		Close			START
+8.520	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent01	Standing		Close			STOP
+8.521	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent01	Crossing		Normal			START
+9.183	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent03	Standing		Close			STOP
+9.184	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent03	Crossing		Slow			START
+9.433	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent02	Standing		Close			STOP
+9.434	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent02	Crossing		Normal			START
+12.437	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent04	Walking		Normal	Road		START
+12.707	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent05	Walking		Normal	Road		START
+13.931	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent04	Walking		Normal	Road		STOP
+13.932	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent04	Crossing		Normal			START
+13.963	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent04	Glancing					POINT
+14.214	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent01	Crossing		Normal			STOP
+14.539	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent02	Crossing		Normal			STOP
+14.556	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent05	Walking		Normal	Road		STOP
+14.557	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent05	Crossing		Normal			START
+17.791	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent03	Crossing		Slow			STOP
+17.807	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent04	Crossing		Normal			STOP
+17.867	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent06	Crossing		Normal			START
+18.557	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent05	Crossing		Normal			STOP
+21.570	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Agent06	Crossing		Normal			STOP
+21.846	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Alien01	Standing		Far			START
+24.224	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Traffic_Lights	Traffic lights		Blinking yellow			STOP
+24.949	/home/alberto/Vídeos/PAD/clip_066.avi	25.020	59.0	Alien01	Standing		Far			STOP

@@ -1,0 +1,35 @@
+Observation id	clip_072									
+										
+Media file(s)										
+										
+Player #1	/home/alberto/Vídeos/PAD/clip_072.avi									
+										
+Observation date	2019-06-25 18:06:37									
+										
+Description	Recording date: 14/06/2019 Circuit: Downtown Alcalá Original video: 20190614_2.mp4									
+										
+Time offset (s)	0.000									
+										
+independent variables										
+variable	value									
+Weather	sun									
+Visibility	normal									
+Traffic	empty									
+Traffic lights	no									
+Crossing	yes									
+Sign	no									
+Speed bump	no									
+Lanes	1									
+Ways	two									
+										
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
+0.576	/home/alberto/Vídeos/PAD/clip_072.avi	18.020	59.0	Agent01	Walking		Slow	Road		START
+0.576	/home/alberto/Vídeos/PAD/clip_072.avi	18.020	59.0	Agent02	Walking		Slow	Road		START
+5.315	/home/alberto/Vídeos/PAD/clip_072.avi	18.020	59.0	Agent01	Looking		Side			START
+6.381	/home/alberto/Vídeos/PAD/clip_072.avi	18.020	59.0	Agent01	Walking		Slow	Road		STOP
+6.382	/home/alberto/Vídeos/PAD/clip_072.avi	18.020	59.0	Agent01	Crossing		Slow			START
+6.558	/home/alberto/Vídeos/PAD/clip_072.avi	18.020	59.0	Agent01	Looking		Side			STOP
+9.406	/home/alberto/Vídeos/PAD/clip_072.avi	18.020	59.0	Agent02	Walking		Slow	Road		STOP
+9.407	/home/alberto/Vídeos/PAD/clip_072.avi	18.020	59.0	Agent02	Crossing		Slow			START
+11.907	/home/alberto/Vídeos/PAD/clip_072.avi	18.020	59.0	Agent01	Crossing		Slow			STOP
+15.507	/home/alberto/Vídeos/PAD/clip_072.avi	18.020	59.0	Agent02	Crossing		Slow			STOP

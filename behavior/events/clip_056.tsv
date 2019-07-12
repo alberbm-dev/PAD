@@ -1,0 +1,75 @@
+Observation id	clip_056									
+										
+Media file(s)										
+										
+Player #1	/home/alberto/Vídeos/PAD/clip_056.avi									
+										
+Observation date	2019-06-25 15:56:57									
+										
+Description	Recording date: 14/06/2019 Circuit: Circuit 1 Original video: 20190614_1.mp4									
+										
+Time offset (s)	0.000									
+										
+independent variables										
+variable	value									
+Weather	sun									
+Visibility	good									
+Traffic	heavy									
+Traffic lights	yes									
+Crossing	yes									
+Sign	no									
+Speed bump	yes									
+Lanes	2									
+Ways	one									
+										
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
+0.015	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Traffic_Lights	Traffic lights		Blinking yellow			START
+0.120	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent01	Standing		Close			START
+5.724	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Traffic_Lights	Traffic lights		Blinking yellow			STOP
+5.725	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Traffic_Lights	Traffic lights		Yellow			START
+8.847	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Traffic_Lights	Traffic lights		Yellow			STOP
+8.848	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Traffic_Lights	Traffic lights		Red			START
+11.170	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent01	Standing		Close			STOP
+11.171	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent01	Walking		Normal	Road		START
+11.302	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent01	Glancing					POINT
+12.782	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent01	Walking		Normal	Road		STOP
+12.783	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent01	Crossing		Normal			START
+17.697	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien01	Walking		Slow	Other		START
+17.697	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien02	Walking		Slow	Other		START
+17.697	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien03	Walking		Slow	Other		START
+18.482	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent01	Crossing		Normal			STOP
+18.483	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent01	Walking		Normal	Other		START
+19.379	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent02	Walking		Fast	Road		START
+20.660	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent02	Glancing					POINT
+21.461	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent02	Looking		Side			START
+21.521	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent02	Walking		Fast	Road		STOP
+21.522	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent02	Crossing		Normal			START
+22.342	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent02	Looking		Side			STOP
+23.662	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien01	Walking		Slow	Other		STOP
+23.662	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien02	Walking		Slow	Other		STOP
+23.662	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien03	Walking		Slow	Other		STOP
+23.663	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien01	Walking		Slow	Road		START
+23.663	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien02	Walking		Slow	Road		START
+23.663	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien03	Walking		Slow	Road		START
+23.958	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent01	Walking		Normal	Other		STOP
+26.172	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Agent02	Crossing		Normal			STOP
+31.711	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien04	Walking		Slow	Road		START
+32.512	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien04	Looking		Side			START
+33.912	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Traffic_Lights	Traffic lights		Red			STOP
+33.913	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Traffic_Lights	Traffic lights		Blinking yellow			START
+34.074	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien04	Looking		Side			STOP
+35.392	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien01	Walking		Slow	Road		STOP
+35.392	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien02	Walking		Slow	Road		STOP
+35.392	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien03	Walking		Slow	Road		STOP
+35.393	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien01	Standing		Close			START
+35.393	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien02	Standing		Close			START
+35.393	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien03	Standing		Close			START
+35.475	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien04	Walking		Slow	Road		STOP
+35.476	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien04	Standing		Close			START
+35.755	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien04	Looking		Side			START
+38.151	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien04	Standing		Close			STOP
+38.238	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien04	Looking		Side			STOP
+38.676	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien03	Standing		Close			STOP
+38.758	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Traffic_Lights	Traffic lights		Blinking yellow			STOP
+38.951	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien02	Standing		Close			STOP
+39.326	/home/alberto/Vídeos/PAD/clip_056.avi	40.020	59.0	Alien01	Standing		Close			STOP

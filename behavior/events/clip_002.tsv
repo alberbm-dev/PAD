@@ -1,0 +1,47 @@
+Observation id	clip_002									
+										
+Media file(s)										
+										
+Player #1	/home/alberto/Vídeos/PAD/clip_002_tracking.avi									
+										
+Observation date	2019-05-03 10:32:25									
+										
+Description	Recording date: 10/04/2019 Circuit: Downtown Alcalá Original video: G1_video_007.avi									
+										
+Time offset (s)	0.0									
+										
+independent variables										
+variable	value									
+Weather	sun									
+Visibility	normal									
+Traffic	light									
+Traffic lights	yes									
+Crossing	yes									
+Sign	no									
+Speed bump	no									
+Lanes	1									
+Ways	one									
+										
+Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
+0.000	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Traffic_Lights	Traffic lights		Green			START
+0.800	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent01	Looking		Front			START
+0.800	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent01	Standing		Close			START
+1.996	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent01	Looking		Front			STOP
+2.267	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent01	Looking		Side			START
+2.360	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent02	Standing		Far			START
+2.480	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Alien01	Walking		Normal	Other		START
+2.640	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent03	Looking		Front			START
+2.640	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent03	Standing		Far			START
+2.642	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent01	Looking		Side			STOP
+2.880	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Alien02	Walking		Normal	Other		START
+2.882	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent02	Looking		Front			START
+3.240	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Alien02	Walking		Normal	Other		STOP
+3.440	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Traffic_Lights	Traffic lights		Green			STOP
+3.520	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent01	Looking		Front			START
+3.760	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent02	Looking		Front			STOP
+3.760	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent02	Standing		Far			STOP
+3.760	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Alien01	Walking		Normal	Other		STOP
+3.870	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent03	Looking		Front			STOP
+3.960	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent03	Standing		Far			STOP
+4.080	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent01	Looking		Front			STOP
+4.080	/home/alberto/Vídeos/PAD/clip_002_tracking.avi	5.000	25.0	Agent01	Standing		Close			STOP
