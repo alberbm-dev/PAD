@@ -1,0 +1,362 @@
+{
+ "time_format":"hh:mm:ss",
+ "project_date":"2019-04-01T18:33:23",
+ "project_name":"base",
+ "project_description":"This project serves as a base for other projects to be built upon.",
+ "project_format_version":"7.0",
+ "subjects_conf":{
+  "0":{
+   "key":"1",
+   "name":"Agent01",
+   "description":"Active subject 1"
+  },
+  "1":{
+   "key":"2",
+   "name":"Agent02",
+   "description":"Active subject 2"
+  },
+  "2":{
+   "key":"3",
+   "name":"Agent03",
+   "description":"Active subject 3"
+  },
+  "3":{
+   "key":"4",
+   "name":"Agent04",
+   "description":"Active subject 4"
+  },
+  "4":{
+   "key":"5",
+   "name":"Agent05",
+   "description":"Active subject 5"
+  },
+  "5":{
+   "key":"6",
+   "name":"Agent06",
+   "description":"Active subject 6"
+  },
+  "6":{
+   "key":"7",
+   "name":"Agent07",
+   "description":"Active subject 7"
+  },
+  "7":{
+   "key":"8",
+   "name":"Agent08",
+   "description":"Active subject 8"
+  },
+  "8":{
+   "key":"9",
+   "name":"Agent09",
+   "description":"Active subject 9"
+  },
+  "9":{
+   "key":"0",
+   "name":"Agent10",
+   "description":"Active subject 10"
+  },
+  "10":{
+   "key":"!",
+   "name":"Alien01",
+   "description":"Bystander subject 1"
+  },
+  "11":{
+   "key":"\"",
+   "name":"Alien02",
+   "description":"Bystander subject 2"
+  },
+  "12":{
+   "key":"\u00b7",
+   "name":"Alien03",
+   "description":"Bystander subject 3"
+  },
+  "13":{
+   "key":"$",
+   "name":"Alien04",
+   "description":"Bystander subject 4"
+  },
+  "14":{
+   "key":"%",
+   "name":"Alien05",
+   "description":"Bystander subject 5"
+  },
+  "15":{
+   "key":"&",
+   "name":"Alien06",
+   "description":"Bystander subject 6"
+  },
+  "16":{
+   "key":"/",
+   "name":"Alien07",
+   "description":"Bystander subject 7"
+  },
+  "17":{
+   "key":"(",
+   "name":"Alien08",
+   "description":"Bystander subject 8"
+  },
+  "18":{
+   "key":")",
+   "name":"Alien09",
+   "description":"Bystander subject 9"
+  },
+  "19":{
+   "key":"=",
+   "name":"Alien10",
+   "description":"Bystander subject 10"
+  },
+  "20":{
+   "key":"L",
+   "name":"Traffic_Lights",
+   "description":"Traffic lights."
+  },
+  "21":{
+   "key":"A",
+   "name":"Agent11",
+   "description":"Active subject 11"
+  },
+  "22":{
+   "key":"S",
+   "name":"Agent12",
+   "description":"Active subject 12"
+  },
+  "23":{
+   "key":"D",
+   "name":"Agent13",
+   "description":"Active subject 13"
+  },
+  "24":{
+   "key":"F",
+   "name":"Agent14",
+   "description":"Active subject 14"
+  },
+  "25":{
+   "key":"G",
+   "name":"Agent15",
+   "description":"Active subject 15"
+  }
+ },
+ "behaviors_conf":{
+  "0":{
+   "type":"State event",
+   "key":"c",
+   "code":"Crossing",
+   "description":"Pedestrian is crossing the road.",
+   "category":"",
+   "modifiers":{
+    "0":{
+     "name":"Speed",
+     "type":0,
+     "values":[
+      "Slow (s)",
+      "Fast (f)"
+     ]
+    }
+   },
+   "excluded":"Walking,Standing",
+   "coding map":""
+  },
+  "1":{
+   "type":"State event",
+   "key":"l",
+   "code":"Looking",
+   "description":"Pedestrian is looking at the vehicle.",
+   "category":"",
+   "modifiers":{
+    "0":{
+     "name":"Direction",
+     "type":0,
+     "values":[
+      "Front (f)",
+      "Side (s)"
+     ]
+    }
+   },
+   "excluded":"",
+   "coding map":""
+  },
+  "2":{
+   "type":"Point event",
+   "key":"g",
+   "code":"Glancing",
+   "description":"Pedestrian glances at the vehicle.",
+   "category":"",
+   "modifiers":"",
+   "excluded":"",
+   "coding map":""
+  },
+  "3":{
+   "type":"State event",
+   "key":"w",
+   "code":"Walking",
+   "description":"Pedestrian is walking on the sidewalk.",
+   "category":"",
+   "modifiers":{
+    "0":{
+     "name":"Speed",
+     "type":0,
+     "values":[
+      "Fast (f)",
+      "Slow (s)"
+     ]
+    },
+    "1":{
+     "name":"Direction",
+     "type":0,
+     "values":[
+      "Road (r)",
+      "Other (o)"
+     ]
+    }
+   },
+   "excluded":"Crossing,Standing",
+   "coding map":""
+  },
+  "4":{
+   "type":"State event",
+   "key":"s",
+   "code":"Standing",
+   "description":"Pedestrian is standing on the sidewalk.",
+   "category":"",
+   "modifiers":{
+    "0":{
+     "name":"Distance",
+     "type":0,
+     "values":[
+      "Close (c)",
+      "Far (f)"
+     ]
+    }
+   },
+   "excluded":"Crossing,Walking",
+   "coding map":""
+  },
+  "5":{
+   "type":"Point event",
+   "key":"y",
+   "code":"Yielding",
+   "description":"Pedestrian yields to the driver.",
+   "category":"",
+   "modifiers":"",
+   "excluded":"",
+   "coding map":""
+  },
+  "6":{
+   "type":"Point event",
+   "key":"t",
+   "code":"Thanking",
+   "description":"Pedestrian thanks the driver.",
+   "category":"",
+   "modifiers":"",
+   "excluded":"",
+   "coding map":""
+  },
+  "7":{
+   "type":"State event",
+   "key":"T",
+   "code":"Traffic lights",
+   "description":"State of traffic lights.",
+   "category":"",
+   "modifiers":{
+    "0":{
+     "name":"State",
+     "type":0,
+     "values":[
+      "Red (r)",
+      "Yellow (y)",
+      "Blinking yellow (b)",
+      "Green (g)"
+     ]
+    }
+   },
+   "excluded":"",
+   "coding map":""
+  }
+ },
+ "observations":{},
+ "behavioral_categories":[],
+ "independent_variables":{
+  "0":{
+   "label":"Weather",
+   "description":"Meteorological conditions.",
+   "type":"value from set",
+   "default value":"n/a",
+   "possible values":"sun,sunset,clouds,rain,night,n/a"
+  },
+  "1":{
+   "label":"Visibility",
+   "description":"Visual conditions of the scenario.",
+   "type":"value from set",
+   "default value":"n/a",
+   "possible values":"good,normal,bad,n/a"
+  },
+  "2":{
+   "label":"Traffic",
+   "description":"Density of vehicles on the road.",
+   "type":"value from set",
+   "default value":"n/a",
+   "possible values":"empty,light,flow,heavy,n/a"
+  },
+  "3":{
+   "label":"Traffic lights",
+   "description":"Presence of traffic lights.",
+   "type":"value from set",
+   "default value":"n/a",
+   "possible values":"yes,no,n/a"
+  },
+  "4":{
+   "label":"Crossing",
+   "description":"Presence of a designated pedestrian crossing.",
+   "type":"value from set",
+   "default value":"n/a",
+   "possible values":"yes,no,n/a"
+  },
+  "5":{
+   "label":"Sign",
+   "description":"Presence of a pedestrian crossing sign.",
+   "type":"value from set",
+   "default value":"n/a",
+   "possible values":"yes,no,n/a"
+  },
+  "6":{
+   "label":"Speed bump",
+   "description":"Presence of speed bumps or elevated pedestrian crossing.",
+   "type":"value from set",
+   "default value":"n/a",
+   "possible values":"yes,no,n/a"
+  },
+  "7":{
+   "label":"Lanes",
+   "description":"Number of lanes in the driving direction.",
+   "type":"numeric",
+   "default value":"0",
+   "possible values":""
+  },
+  "8":{
+   "label":"Ways",
+   "description":"Whether the road is one- or two-way, or an intersection.",
+   "type":"value from set",
+   "default value":"n/a",
+   "possible values":"one,two,intersection,n/a"
+  }
+ },
+ "coding_map":{},
+ "behaviors_coding_map":[],
+ "converters":{
+  "HHMMSS_2_seconds":{
+   "name":"HHMMSS_2_seconds",
+   "description":"convert HH:MM:SS in seconds since 1970-01-01",
+   "code":"\nh, m, s = INPUT.split(':')\nOUTPUT = int(h) * 3600 + int(m) * 60 + int(s)\n\n"
+  },
+  "ISO8601_to_seconds":{
+   "name":"ISO8601_to_seconds",
+   "description":"Convert ISO8601 format to seconds since 1970-01-01 Input example: \"2018-01-18T12:31:40Z\"",
+   "code":"import datetime\nepoch = datetime.datetime.utcfromtimestamp(0)\ndatetime_format = \"%Y-%m-%dT%H:%M:%SZ\"\n\nOUTPUT = (datetime.datetime.strptime(INPUT, datetime_format) - epoch).total_seconds()"
+  },
+  "invert_value":{
+   "name":"invert_value",
+   "description":"invert the value",
+   "code":"\nOUTPUT = -float(INPUT)\n\n"
+  }
+ }
+}
