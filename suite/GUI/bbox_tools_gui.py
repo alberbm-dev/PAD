@@ -104,7 +104,7 @@ def id_bbox(params, bbox_data):
     # colors = {"person": (0, 0, 255), "traffic_light": (0, 255, 0)}
     subjects = list(bbox_data.keys())
     # Margin between click location and bounding box location
-    pad = 15
+    pad = 10
     with open(params["bbox_path"], "r") as in_bbox:
         lines = in_bbox.readlines()
         data_out = ""
@@ -199,7 +199,7 @@ def remove_bbox_v2(params, bbox_data):
     # List of subjects to be eliminated
     gones = list(bbox_data.keys())
     # Margin between click location and bounding box location
-    pad = 20
+    pad = 10
     subj_out = list()
     # Read original bounding box data
     with open(params["bbox_path"], "r") as in_bbox:
