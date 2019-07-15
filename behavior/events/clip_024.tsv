@@ -2,7 +2,7 @@ Observation id	clip_024
 										
 Media file(s)										
 										
-Player #1	/home/alberto/Vídeos/PAD/clip_024.avi									
+Player #1	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_024_tracking.avi									
 										
 Observation date	2019-05-03 13:40:25									
 										
@@ -23,15 +23,17 @@ Lanes	1
 Ways	one									
 										
 Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
-0.308	/home/alberto/Vídeos/PAD/clip_024.avi	7.040	25.0	Agent01	Walking		Normal	Road		START
-0.308	/home/alberto/Vídeos/PAD/clip_024.avi	7.040	25.0	Agent02	Walking		Fast	Road		START
-0.889	/home/alberto/Vídeos/PAD/clip_024.avi	7.040	25.0	Agent01	Walking		Normal	Road		STOP
-1.051	/home/alberto/Vídeos/PAD/clip_024.avi	7.040	25.0	Agent01	Glancing					POINT
-1.590	/home/alberto/Vídeos/PAD/clip_024.avi	7.040	25.0	Agent02	Walking		Fast	Road		STOP
-1.688	/home/alberto/Vídeos/PAD/clip_024.avi	7.040	25.0	Agent01	Crossing		Normal			START
-1.842	/home/alberto/Vídeos/PAD/clip_024.avi	7.040	25.0	Agent02	Crossing		Fast			START
-1.884	/home/alberto/Vídeos/PAD/clip_024.avi	7.040	25.0	Agent01	Looking		Side			START
-2.555	/home/alberto/Vídeos/PAD/clip_024.avi	7.040	25.0	Agent02	Glancing					POINT
-3.650	/home/alberto/Vídeos/PAD/clip_024.avi	7.040	25.0	Agent01	Looking		Side			STOP
-5.087	/home/alberto/Vídeos/PAD/clip_024.avi	7.040	25.0	Agent02	Crossing		Fast			STOP
-5.514	/home/alberto/Vídeos/PAD/clip_024.avi	7.040	25.0	Agent01	Crossing		Normal			STOP
+0.240	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_024_tracking.avi	7.040	25.0	Agent01	Walking		Normal	Road		START
+0.320	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_024_tracking.avi	7.040	25.0	Agent02	Walking		Fast	Road		START
+1.040	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_024_tracking.avi	7.040	25.0	Agent01	Glancing					POINT
+1.400	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_024_tracking.avi	7.040	25.0	Agent01	Walking		Normal	Road		STOP
+1.440	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_024_tracking.avi	7.040	25.0	Agent01	Crossing		Normal			START
+1.680	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_024_tracking.avi	7.040	25.0	Agent02	Walking		Fast	Road		STOP
+1.720	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_024_tracking.avi	7.040	25.0	Agent02	Crossing		Fast			START
+1.880	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_024_tracking.avi	7.040	25.0	Agent01	Looking		Side			START
+1.920	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_024_tracking.avi	7.040	25.0	Agent02	Crossing		Fast			STOP
+3.080	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_024_tracking.avi	7.040	25.0	Agent02	Crossing		Fast			START
+3.080	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_024_tracking.avi	7.040	25.0	Agent02	Glancing					POINT
+3.560	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_024_tracking.avi	7.040	25.0	Agent01	Looking		Side			STOP
+5.000	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_024_tracking.avi	7.040	25.0	Agent02	Crossing		Fast			STOP
+5.240	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_024_tracking.avi	7.040	25.0	Agent01	Crossing		Normal			STOP

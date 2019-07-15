@@ -2,7 +2,7 @@ Observation id	clip_021
 										
 Media file(s)										
 										
-Player #1	/home/alberto/Vídeos/PAD/clip_021.avi									
+Player #1	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_021_tracking.avi									
 										
 Observation date	2019-05-03 13:25:58									
 										
@@ -23,8 +23,9 @@ Lanes	1
 Ways	two									
 										
 Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Modifier 2	Comment	Status
-0.060	/home/alberto/Vídeos/PAD/clip_021.avi	5.520	25.0	Agent01	Walking		Slow	Other		START
-2.671	/home/alberto/Vídeos/PAD/clip_021.avi	5.520	25.0	Agent01	Walking		Slow	Other		STOP
-2.882	/home/alberto/Vídeos/PAD/clip_021.avi	5.520	25.0	Agent01	Standing		Close			START
-4.534	/home/alberto/Vídeos/PAD/clip_021.avi	5.520	25.0	Agent01	Glancing					POINT
-5.030	/home/alberto/Vídeos/PAD/clip_021.avi	5.520	25.0	Agent01	Standing		Close			STOP
+0.040	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_021_tracking.avi	5.520	25.0	Agent01	Walking		Slow	Other		START
+2.680	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_021_tracking.avi	5.520	25.0	Agent01	Walking		Slow	Other		STOP
+2.720	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_021_tracking.avi	5.520	25.0	Agent01	Standing		Close			START
+4.534	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_021_tracking.avi	5.520	25.0	Agent01	Looking		Side			START
+5.080	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_021_tracking.avi	5.520	25.0	Agent01	Looking		Side			STOP
+5.080	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_021_tracking.avi	5.520	25.0	Agent01	Standing		Close			STOP
