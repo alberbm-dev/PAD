@@ -2,7 +2,7 @@ Observation id	clip_032
 									
 Media file(s)									
 									
-Player #1	/home/alberto/Vídeos/PAD/clip_032.avi								
+Player #1	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_032_tracking.avi								
 									
 Observation date	2019-05-03 14:09:07								
 									
@@ -23,13 +23,15 @@ Lanes	2
 Ways	one								
 									
 Time	Media file path	Total length	FPS	Subject	Behavior	Behavioral category	Modifier 1	Comment	Status
-1.660	/home/alberto/Vídeos/PAD/clip_032.avi	7.920	25.0	Agent02	Looking		Side		START
-1.929	/home/alberto/Vídeos/PAD/clip_032.avi	7.920	25.0	Agent01	Looking		Side		START
-2.375	/home/alberto/Vídeos/PAD/clip_032.avi	7.920	25.0	Agent01	Crossing		Fast		START
-2.682	/home/alberto/Vídeos/PAD/clip_032.avi	7.920	25.0	Agent02	Crossing		Normal		START
-2.960	/home/alberto/Vídeos/PAD/clip_032.avi	7.920	25.0	Agent02	Looking		Side		STOP
-5.460	/home/alberto/Vídeos/PAD/clip_032.avi	7.920	25.0	Agent02	Looking		Side		START
-5.800	/home/alberto/Vídeos/PAD/clip_032.avi	7.920	25.0	Agent01	Crossing		Fast		STOP
-5.870	/home/alberto/Vídeos/PAD/clip_032.avi	7.920	25.0	Agent01	Looking		Side		STOP
-6.410	/home/alberto/Vídeos/PAD/clip_032.avi	7.920	25.0	Agent02	Looking		Side		STOP
-6.675	/home/alberto/Vídeos/PAD/clip_032.avi	7.920	25.0	Agent02	Crossing		Normal		STOP
+1.800	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_032_tracking.avi	7.920	25.0	Agent02	Looking		Side		START
+1.920	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_032_tracking.avi	7.920	25.0	Agent01	Looking		Side		START
+2.600	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_032_tracking.avi	7.920	25.0	Agent02	Crossing		Fast		START
+2.680	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_032_tracking.avi	7.920	25.0	Agent01	Crossing		Normal		START
+2.960	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_032_tracking.avi	7.920	25.0	Agent02	Looking		Side		STOP
+3.200	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_032_tracking.avi	7.920	25.0	Agent01	Looking		Side		STOP
+4.000	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_032_tracking.avi	7.920	25.0	Agent02	Looking		Side		START
+5.480	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_032_tracking.avi	7.920	25.0	Agent01	Looking		Side		START
+5.800	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_032_tracking.avi	7.920	25.0	Agent02	Crossing		Fast		STOP
+6.160	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_032_tracking.avi	7.920	25.0	Agent01	Looking		Side		STOP
+6.410	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_032_tracking.avi	7.920	25.0	Agent02	Looking		Side		STOP
+6.800	/home/alberto/Seafile/Universidad/2018-19/TFG/videos/clip_032_tracking.avi	7.920	25.0	Agent01	Crossing		Normal		STOP
