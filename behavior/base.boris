@@ -149,7 +149,8 @@
      "type":0,
      "values":[
       "Slow (s)",
-      "Fast (f)"
+      "Fast (f)",
+      "Normal (n)"
      ]
     }
    },
@@ -197,7 +198,8 @@
      "type":0,
      "values":[
       "Fast (f)",
-      "Slow (s)"
+      "Slow (s)",
+      "Normal (n)"
      ]
     },
     "1":{
