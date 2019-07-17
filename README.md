@@ -21,7 +21,7 @@ The suite is developed under Pop!\_OS (Ubuntu 18.04) in Python 3.6, but should w
 - OpenCV-Python: https://opencv-python-tutroals.readthedocs.io/en/latest/
 - Munkres: https://pypi.org/project/munkres/
 - screeninfo: https://pypi.org/project/screeninfo/
-- wxPython: https://github.com/wxWidgets/Phoenix
+- wxPython: https://github.com/wxWidgets/Phoenix (this one should be in the Pipfile, but I had problems installing it from PyPi...)
 - BORIS: http://www.boris.unito.it
 - VLC: https://www.videolan.org/vlc/
 
