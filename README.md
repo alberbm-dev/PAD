@@ -14,6 +14,9 @@ I strongly recommend using virtual environments to run it. I used Pipenv to mana
 
 In order to use the _Run YOLO!_ tool you must first download the weights and configuration files from Darknet's official website, as well as the list of categories on the COCO dataset.
 
+
+![](PAD_main.png)
+
 ### Requirements
 The suite is developed under Pop!\_OS (Ubuntu 18.04) in Python 3.6, but should work just fine in any other operative system.
 - Codecs and formats support (for example ubuntu-restricted-extras, ffmpeg,...).
