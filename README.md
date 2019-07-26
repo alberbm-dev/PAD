@@ -19,7 +19,7 @@ In order to use the _Run YOLO!_ tool you must first download the weights and con
 
 ### Requirements
 The suite is developed under Pop!\_OS (Ubuntu 18.04) in Python 3.6, but should work just fine in any other operative system.
-- Codecs and formats support (for example ubuntu-restricted-extras, ffmpeg,...).
+- Codecs and formats support (for example ubuntu-restricted-extras, ffmpeg, libgstreamer, libgtk,...).
 - Numpy: https://www.numpy.org
 - OpenCV-Python: https://opencv-python-tutroals.readthedocs.io/en/latest/
 - Munkres: https://pypi.org/project/munkres/
