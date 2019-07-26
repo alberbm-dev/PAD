@@ -7,9 +7,11 @@ verify_ssl = true
 
 [packages]
 numpy = "*"
-opencv-python = "*"
 munkres = "*"
 screeninfo = "*"
+opencv-contrib-python = "*"
+pathlib2 = "*"
+wxpython = "*"
 
 [requires]
 python_version = "3.6"
