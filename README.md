@@ -4,8 +4,10 @@ Welcome, amigo!
 
 This repository contains the code I developed as part of my degree's Final Project, which is called **Development of an intelligent system to detect and predict pedestrians' intentions in urban environments**. It is an integrated suite of tools to process videos, work with bounding boxes and make behavior-related stuff. Here you will also find the files resulting from the behavioral analysis I performed in that project.
 
-[Introduction](#intro)
+[Introduction](#intro) 
+
 [The Suite](#suite)
+
 [The Dataset](#dataset)
 
 I hope I can make my paper publicly available at some point. In the meantime, contact me if you have questions or comments (albertobm@protonmail.com). Or find me in LinkedIn (https://www.linkedin.com/in/alberto-barragán-moreno-821740100)
@@ -19,7 +21,7 @@ The project focuses on analyzing the main sources of information in vehicle-to-p
 - Context and environment, such as presence of designated crossings, traffic lights,...
 - Vehicle parameters, such as speed and acceleration.
 
-The combination of these factors aims to obtain an improvement in scene understanding applied to autonomous vehicles.You may want to check out the [presentation](/docs/Presentation)
+The combination of these factors aims to obtain an improvement in scene understanding applied to autonomous vehicles.You may want to check out the [presentation](/docs/Presentation.pdf)
 
 Notice that this project has several branches:
 
