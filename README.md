@@ -1,5 +1,7 @@
 # Official Pedestrian Awarenes Dataset repository
 
+_**THIS BRANCH CORRESPONDS TO THE WORK DEVELOPED AFTER I PRESENTED MY PROJECT**_
+
 Welcome, amigo!
 
 This repository contains the code I developed as part of my Bachelor's Project, which is called **Development of an intelligent system to detect and predict pedestrians' intentions in urban environments**. It is an integrated suite of tools to process videos, work with bounding boxes and make behavior-related stuff. Here you will also find the files resulting from the behavioral analysis I performed in that project.
