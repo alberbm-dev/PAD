@@ -21,7 +21,7 @@ The project focuses on analyzing the main sources of information in vehicle-to-p
 - Context and environment, such as presence of designated crossings, traffic lights,...
 - Vehicle parameters, such as speed and acceleration.
 
-The combination of these factors aims to obtain an improvement in scene understanding applied to autonomous vehicles.You may want to check out the [presentation](/docs/Presentation.pdf)
+The combination of these factors aims to obtain an improvement in scene understanding applied to autonomous vehicles.You may want to check out the [presentation](/docs/Presentation.pdf) for a better explaination of the project's basis and outcomes.
 
 Notice that this project has several branches:
 
