@@ -21,9 +21,11 @@ from bbox_tools_gui import remove_bbox_v2
 from bbox_tools_gui import draw_bbox
 from bbox_tools_gui import id_bbox
 from bbox_tools_gui import track_bbox
+from bbox_tools_gui import track_bbox_v2
+from bbox_tools_gui import TRACKERS
 from yolo_gui import run_yolo3
 
-version = "beta_20190702-1"
+version = "0.2.0"
 
 
 class MainFrame(wx.Frame):
@@ -58,6 +60,7 @@ class MainFrame(wx.Frame):
              "Bounding Box Remover": False,
              "Bounding Box Remover v2": False,
              "Bounding Box Tracking": False,
+             "Bounding Box Tracking v2:": False,
              "Attributes Manager": False, "Data Fusion": False,
              "Run YOLO!": False})
         self.option = "None"
@@ -155,6 +158,10 @@ class MainFrame(wx.Frame):
                                        label="Bounding Box Tracking")
         self.bboxtrack_btn.Bind(wx.EVT_BUTTON, self.option_clicked)
         self.sizer_tools2.Add(self.bboxtrack_btn, 0, wx.ALL | wx.CENTER, 10)
+        self.bboxtrack_btn2 = wx.Button(self.panel,
+                                        label="Bounding Box Tracking v2")
+        self.bboxtrack_btn2.Bind(wx.EVT_BUTTON, self.option_clicked)
+        self.sizer_tools2.Add(self.bboxtrack_btn2, 0, wx.ALL | wx.CENTER, 10)
         self.sizer_main.Add(self.sizer_tools2, 0, wx.ALIGN_CENTER | wx.ALL, 5)
 
         self.sizer_tools3 = wx.BoxSizer(wx.HORIZONTAL)
@@ -211,6 +218,9 @@ class MainFrame(wx.Frame):
                                "Bounding Box Identification - PAD suite")
         elif self.option == self.bboxtrack_btn.Label:
             BboxesTrackFrame(None, wx.ID_ANY, "Bounding Box Tracking"
+                                              " - PAD suite")
+        elif self.option == self.bboxtrack_btn2.Label:
+            BboxesTrack2Frame(None, wx.ID_ANY, "Bounding Box Tracking v2"
                                               " - PAD suite")
         elif self.option == self.attributes_btn.Label:
             AttributesSetUpFrame(mainMenu, wx.ID_ANY, "Attributes Manager"
@@ -1946,6 +1956,7 @@ class BboxesTrackFrame(wx.Frame):
 
     Input: TSV files containing bounding boxes data.
     Output: TSV files with corresponding subjects according to tracking.
+            Frames annotated with unique identifiers.
     Use: select the files corresponding to the frames to perform tracking over.
     TSV files must be named as "frame_{code}_data.tsv", and frames must be
     named as "frame_{code}_bboxes.png". First data file must contain the real
@@ -1958,7 +1969,7 @@ class BboxesTrackFrame(wx.Frame):
     """
 
     def __init__(self, fr_parent=None, fr_id=wx.ID_ANY,
-                 fr_title="Bounding Box Identification - PAD suite"):
+                 fr_title="Bounding Box Tracking - PAD suite"):
         """ Create frame, using inheritance.
 
         :param fr_parent: frame
@@ -2034,6 +2045,129 @@ class BboxesTrackFrame(wx.Frame):
             self.status = track_bbox(**self.params)
             if self.status == "done":
                 print(f"[INFO] Tracking has been completed!\n")
+                self.Close()
+
+
+class BboxesTrack2Frame(wx.Frame):
+    """ Window for setting up the input parameters to the Bounding Box Tracker.
+
+    Input: scene frames.
+    Output: TSV files with corresponding subjects according to tracking.
+            Frames annotated with the unique identifiers.
+    Use: select the files corresponding to the frames to perform tracking over.
+    TSV files must be named as "frame_{code}_data.tsv", and frames must be
+    named as "frame_{code}_bboxes.png". First data file must contain the real
+    names of the subjects.
+
+    :var self.params: dict
+        Parameters introduced by the user (bounding box data).
+    :var self.status: str
+        Register if the Bounding Box Tracker has run succesfully.
+    """
+
+    def __init__(self, fr_parent=None, fr_id=wx.ID_ANY,
+                 fr_title="Bounding Box Tracking v2 - PAD suite"):
+        """ Create frame, using inheritance.
+
+        :param fr_parent: frame
+            Parent frame, if any.
+        :param fr_id: wxID
+            Frame wxID, if any.
+        :param fr_title: str
+            Frame title, to be displayed as window name.
+        """
+        super().__init__(fr_parent, fr_id, fr_title, size=(500, 250))
+        self.panel = wx.Panel(self)
+        self.main_sizer = wx.BoxSizer(wx.VERTICAL)
+
+        self.framepath_sizer = wx.BoxSizer(wx.HORIZONTAL)
+        framepath_text = wx.StaticText(self.panel, label="Input frames:")
+        self.framepath_sizer.Add(framepath_text, 0,
+                                 wx.RIGHT | wx.LEFT | wx.CENTER, 10)
+        self.framepath_input = wx.TextCtrl(self.panel)
+        self.framepath_sizer.Add(self.framepath_input, 1,
+                                 wx.RIGHT | wx.LEFT | wx.CENTER, 10)
+        self.framepath_browse = wx.Button(self.panel, id=wx.ID_FIND)
+        self.framepath_browse.Bind(wx.EVT_BUTTON, self.press_browse_framepath)
+        self.framepath_sizer.Add(self.framepath_browse, 0,
+                                 wx.RIGHT | wx.LEFT | wx.CENTER, 10)
+        self.main_sizer.Add(self.framepath_sizer, 1, wx.ALL | wx.EXPAND, 10)
+
+        self.tracker_sizer = wx.BoxSizer(wx.HORIZONTAL)
+        tracker_text = wx.StaticText(self.panel, label="Choose tracker:")
+        self.tracker_sizer.Add(tracker_text, 0,
+                               wx.RIGHT | wx.LEFT | wx.CENTER, 10)
+        self.tracker_choice = wx.Choice(self.panel, id=wx.ID_ANY,
+                                        choices=TRACKERS,
+                                        style=wx.CB_SORT)
+        self.tracker_sizer.Add(self.tracker_choice, 0,
+                               wx.LEFT | wx.RIGHT | wx.CENTER, 10)
+        self.main_sizer.Add(self.tracker_sizer, 1, wx.ALL | wx.EXPAND, 10)
+
+        self.subject_sizer = wx.BoxSizer(wx.HORIZONTAL)
+        subject_text = wx.StaticText(self.panel, label="Tracking subject:")
+        self.subject_sizer.Add(subject_text, 0,
+                               wx.RIGHT | wx.LEFT | wx.CENTER, 10)
+        self.subject_input = wx.TextCtrl(self.panel)
+        self.subject_sizer.Add(self.subject_input, 1,
+                                wx.RIGHT | wx.LEFT | wx.CENTER, 10)
+        self.main_sizer.Add(self.subject_sizer, 1, wx.ALL | wx.EXPAND, 10)
+
+        self.apply_btn = wx.Button(self.panel, id=wx.ID_APPLY)
+        self.apply_btn.Bind(wx.EVT_BUTTON, self.press_apply)
+        self.main_sizer.Add(self.apply_btn, 0, wx.ALL | wx.CENTER, 10)
+
+        self.panel.SetSizer(self.main_sizer)
+        self.Show()
+
+        self.params = dict()
+        self.status = ""
+
+    def press_browse_framepath(self, event):
+        """ Handle method triggered when input path Browse button is pressed.
+
+        Launch a file browser to select the input files (multiple selection).
+        Selected paths are stored and displayed in the Input field.
+
+        :param event: action that triggers the method. Automatically generated.
+        :return: nothing.
+        """
+
+        browser = wx.FileDialog(self, "Source frames", "", "",
+                                "PNG files (*.png)|*.png",
+                                wx.FD_OPEN | wx.FD_MULTIPLE |
+                                wx.FD_FILE_MUST_EXIST)
+        browser.ShowModal()
+        self.params["frame_path"] = browser.GetPaths()
+        browser.Destroy()
+        self.framepath_input.SetValue(",".join(self.params["frame_path"]))
+
+    def press_apply(self, event):
+        """ Handle method triggered when Apply button is pressed.
+
+        Launch the Bounding Boxes Tracker with the chosen paths.
+        The window is closed when the Tracker has run succesfully.
+
+        :param event: action that triggers the method. Automatically generated.
+        :return: nothing.
+        """
+
+        self.params["frame_path"] = sorted(self.framepath_input.GetValue().
+                                           split(","))
+        self.params["tracker"] = self.tracker_choice.GetStringSelection()
+        self.params["subject"] = self.subject_input.GetValue()
+
+        if not self.params["frame_path"] or not self.params["subject"]:
+            print(f"[ERROR] You didn't enter anything!\n")
+        else:
+            print(f'[INFO] Input frames: {", ".join(self.params["frame_path"])}'
+                  f'\n')
+            self.status = track_bbox_v2(**self.params)
+            if self.status == "done":
+                print(f"[INFO] Tracking has been completed!\n")
+                self.Close()
+            elif self.status == "error":
+                print(f"[ERROR] An error occurred during tracking.\n")
                 self.Close()
 
 
@@ -2240,8 +2374,7 @@ class AttributesFrame(wx.Frame):
         :return: nothing.
         """
 
-        self.subject_idx = self.subj_choice.GetSelection()
-        self.subject = self.subj_choice.GetString(self.subject_idx)
+        self.subject = self.subj_choice.GetStringSelection()
         self.attribs = list(self.attrib_choice.GetCheckedStrings())
         self.status = set_attributes(self.subject, self.attribs, **self.params)
         if self.status == "done":

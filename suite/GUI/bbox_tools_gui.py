@@ -10,6 +10,10 @@ GREEN_BGR = (0, 255, 0)
 RED_BGR = (0, 0, 180)
 BLACK_BGR = (0, 0, 0)
 
+# Available OpenCV trackers
+TRACKERS = ["Boosting", "MIL", "KCF", "TLD", "MedianFlow", "GOTURN", "MOSSE",
+            "CSRT"]
+
 
 def draw_bbox(**params):
     """ This function allows the user to draw its own bounding boxes on an
@@ -64,21 +68,6 @@ def draw_bbox(**params):
             out_data += "\t" + str(x0 + w) + "\t" + str(y0 + h)
             out_data += "\t" + str(w) + "\t" + str(h)
             out_data += "\t" + str(w * h)
-        # Iterate over the list of subjects to be drawn
-        # for subj_idx in range(0, len(params["subjects"])):
-        #     # Ask for a bounding box and register coordinates
-        #     x0, y0, w, h = cv2.selectROI(img)
-        #     # Draw bounding box and name on the frame
-        #     cv2.rectangle(img, (x0, y0), (x0+w, y0+h), RED_BGR, 2)
-        #     cv2.putText(img, params["subjects"][subj_idx], (x0, y0-5),
-        #                 cv2.FONT_HERSHEY_SIMPLEX, 0.5, RED_BGR, 1)
-        #     # cv2.imwrite(params["frame_path"][file_idx], img)
-        #     cv2.imwrite(out_path, img)
-        #     out_data += "\n" + params["subjects"][subj_idx]
-        #     out_data += "\t" + str(x0) + "\t" + str(y0)
-        #     out_data += "\t" + str(x0 + w) + "\t" + str(y0 + h)
-        #     out_data += "\t" + str(w) + "\t" + str(h)
-        #     out_data += "\t" + str(w * h)
         # Write bounding box data to the TSV file
         with open(tsv_path, "w") as tsv_out:
             tsv_out.write(out_data)
@@ -262,7 +251,7 @@ def remove_bbox_v2(params, bbox_data):
 
 
 def track_bbox(**params):
-    """ This function performs tracking of subjects throught a set of frames,
+    """ This function performs tracking of subjects across a set of frames,
     using Hungarian Algorithm.
 
     :param params: dict
@@ -356,4 +345,89 @@ def track_bbox(**params):
         del data_k0
         del coords["k0"]
         del coords["k1"]
+    return "done"
+
+
+def track_bbox_v2(**params):
+    """ This function performs tracking of subjects across a set of frames,
+        using OpenCV built-in trackers.
+
+    :param params: dict
+        Parameters introduced by the user (frames, tracker, subject).
+    :return: done/error flag
+    """
+
+    print(f"[INFO] Working...")
+    # Create tracker object corresponding to choice
+    if params["tracker"] == "Boosting":
+        tracker = cv2.TrackerBoosting_create()
+    elif params["tracker"] == "MIL":
+        tracker = cv2.TrackerMIL_create()
+    elif params["tracker"] == "KCF":
+        tracker = cv2.TrackerKCF_create()
+    elif params["tracker"] == "TLD":
+        tracker = cv2.TrackerTLD_create()
+    elif params["tracker"] == "MedianFlow":
+        tracker = cv2.TrackerMedianFlow_create()
+    elif params["tracker"] == "GOTURN":
+        tracker = cv2.TrackerGOTURN_create()
+    elif params["tracker"] == "MOSSE":
+        tracker = cv2.TrackerMOSSE_create()
+    elif params["tracker"] == "CSRT":
+        tracker = cv2.TrackerCSRT_create()
+    # Iterate over all the frame on the list
+    for frame_idx in range(0, len(params["frame_path"])):
+        # Read frame
+        img = cv2.imread(params["frame_path"][frame_idx])
+        if "tracking" in os.path.split(params["frame_path"][frame_idx])[1]:
+            tsv_path = params["frame_path"][frame_idx]. \
+                replace("_tracking.png", "_data.tsv")
+            out_path = params["frame_path"][frame_idx]
+        else:
+            tsv_path = params["frame_path"][frame_idx]. \
+                replace(".png", "_data.tsv")
+            out_path = params["frame_path"][frame_idx]. \
+                replace(".png", "_tracking.png")
+        # First frame: draw bounding box and initialize tracker
+        if frame_idx == 0:
+            bbox = cv2.selectROI("Select ROI " + os.path.
+                                 split(params["frame_path"][frame_idx])[1], img)
+            ok = tracker.init(img, bbox)
+        # Rest of frames: update tracker with the current frame
+        else:
+            ok, bbox = tracker.update(img)
+        # Succesful tracking: save data
+        if ok:
+            # Draw bounding box on the frame, including identifier
+            p1 = (int(bbox[0]), int(bbox[1]))
+            p2 = (int(bbox[0] + bbox[2]), int(bbox[1] + bbox[3]))
+            cv2.rectangle(img, p1, p2, RED_BGR, 2)
+            cv2.putText(img, params["subject"], (p1[0], p2[1] + 20),
+                        cv2.FONT_HERSHEY_DUPLEX, 0.55, RED_BGR, 1)
+            cv2.imwrite(out_path, img)
+            # Save bounding box data to TSV file
+            if not os.path.exists(tsv_path):
+                with open(tsv_path, "w") as tsv_in:
+                    out_data = "Source image:\t" + os.path.\
+                        split(params["frame_path"][frame_idx])[1].\
+                        replace("_bboxes", "")
+                    out_data += "\nName\tX0\tY0\tX1\tY1\tW\tH\tA"
+                    tsv_in.write(out_data)
+                    del out_data
+            with open(tsv_path, "r") as tsv_in:
+                out_data = tsv_in.read().strip("\n")
+                tsv_in.seek(0)
+                out_data += "\n" + params["subject"]
+                out_data += "\t" + str(int(bbox[0])) + "\t" + str(int(bbox[1]))
+                out_data += "\t" + str(int(bbox[0] + bbox[2])) + \
+                            "\t" + str(int(bbox[1] + bbox[3]))
+                out_data += "\t" + str(int(bbox[2])) + "\t" + str(int(bbox[3]))
+                out_data += "\t" + str(int(bbox[2]) * int(bbox[3]))
+            with open(tsv_path, "w") as tsv_out:
+                tsv_out.write(out_data)
+                del out_data
+            cv2.destroyAllWindows()
+        # Unsuccesful tracking: raise error flag
+        else:
+            return "error"
     return "done"
