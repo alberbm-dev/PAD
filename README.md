@@ -36,9 +36,6 @@ The suite is pretty straightforward and easy to use.
 
 I strongly recommend using virtual environments to run it. I used Pipenv to manage the project and the requirements.
 
-In order to use the _Run YOLO!_ tool you must first download the weights and configuration files from Darknet's official website, as well as the list of categories on the COCO dataset.
-
-
 ![](PAD_main.png)
 
 ### Requirements
