@@ -41,7 +41,7 @@ I strongly recommend using virtual environments to run it. I used Pipenv to mana
 The suite is developed under Pop!\_OS (Ubuntu 18.04) in Python 3.6, but should work just fine in any other operative system.
 - Codecs and formats support (for example ubuntu-restricted-extras, ffmpeg, libgstreamer, libgtk,...).
 - Numpy: https://www.numpy.org
-- OpenCV-Python: https://opencv-python-tutroals.readthedocs.io/en/latest/
+- OpenCV-contrib-Python: https://opencv-python-tutroals.readthedocs.io/en/latest/
 - Munkres: https://pypi.org/project/munkres/
 - screeninfo: https://pypi.org/project/screeninfo/
 - wxPython: https://github.com/wxWidgets/Phoenix (this one should be in the Pipfile, but I had problems installing it from PyPi...)
@@ -63,6 +63,8 @@ The suite is developed under Pop!\_OS (Ubuntu 18.04) in Python 3.6, but should w
 	- v1: automatically remove a series of subjects from a series of frames
 	- v2: remove the bounding boxes using a graphical interface
 - **Bounding Box Tracking**: tracks subjects across a series of frames
+	- v1: tracking using Kuhn-Munkres algorithm
+	- v2: tracking using OpenCV trackers
 - **Attributes Manager**: set attributes for the pedestrians in a scene
 - **Data Fusion**: combine behavioral information with bounding boxes and subject identifiers in a single video
 - **Run YOLO!**: use YOLO detection application
